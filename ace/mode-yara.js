@@ -67,7 +67,7 @@ var YaraHighlightRules = function() {
             token : "constant.numeric", // imaginary
             regex : "(?:" + floatNumber + "|\\d+)[jJ]\\b"
         }, {
-            token : "constant.numeric", // float
+            token : "constant.numeric", // loat
             regex : floatNumber
         }, {
             token : "constant.numeric", // long integer
